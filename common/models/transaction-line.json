@@ -1,0 +1,37 @@
+{
+  "name": "TransactionLine",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "quantity": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "unitPrice": {
+      "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "transaction": {
+      "type": "belongsTo",
+      "model": "Transaction",
+      "foreignKey": ""
+    },
+    "product": {
+      "type": "embedsOne",
+      "model": "Product"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
