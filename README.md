@@ -19,6 +19,10 @@ To do so:
 * `cd client && npm install && bower install` to install the web client's dependencies
 * `gulp serve` to run the web client & server
 
+Once it's running, you can:
+* View the web interface (usually at [http://localhost:3000](http://localhost:3000) - check your console for the exact address)
+* Explore the server's resources at [http://localhost:8000/explorer](http://localhost:8000/explorer)
+
 ## Resources
 
 * [Try Git](https://try.github.io/)
