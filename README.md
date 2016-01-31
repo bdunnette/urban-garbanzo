@@ -15,6 +15,6 @@ Finally, once you have the code, you'll need to install the remaining bits of so
 To do so:
 * Install [Bower](http://bower.io/) - `sudo npm install -g bower` - to help us download & update client-side tools like [Bootstrap](http://getbootstrap.com/) and [AngularJS](http://campus.codeschool.com/courses/shaping-up-with-angular-js)
 * Go to the directory where you've downloaded the FGTCDB source code
-* `[npm](https://docs.npmjs.com/getting-started/what-is-npm) install` to get the libraries to run the server portion of our code
+* `npm install` to get the libraries to run the server portion of our code
 * `cd client && npm install  && bower install` to install the web client's dependencies
-* `[gulp](http://gulpjs.com/) serve` to run the web client & server
+* `gulp serve` to run the web client & server
