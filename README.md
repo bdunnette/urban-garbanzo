@@ -18,3 +18,9 @@ To do so:
 * `npm install` to get the libraries to run the server portion of our code
 * `cd client && npm install && bower install` to install the web client's dependencies
 * `gulp serve` to run the web client & server
+
+## Resources
+
+* [Try Git](https://try.github.io/)
+* [Shaping Up with AngularJS](campus.codeschool.com/courses/shaping-up-with-angular-js/)
+* [StrongLoop / Loopback docs](https://docs.strongloop.com/)
