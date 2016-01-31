@@ -13,6 +13,7 @@ Once you have Node, you'll need to download our [source code](https://en.wikiped
 Finally, once you have the code, you'll need to install the remaining bits of software that FGTCDB runs on top of - its "dependencies".
 
 To do so:
+* Install [Bower](http://bower.io/) - `sudo npm install -g bower` - to help us download & update client-side tools like [Bootstrap](http://getbootstrap.com/) and [AngularJS](http://campus.codeschool.com/courses/shaping-up-with-angular-js)
 * Go to the directory where you've downloaded the FGTCDB source code
 * `npm install` to get the libraries to run the server portion of our code
 * `cd client && npm install && bower install` to install the web client's dependencies
